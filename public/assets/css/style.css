@@ -1,0 +1,82 @@
+.navbar-brand {
+	opacity: 0.5;
+}
+
+.navbar-brand:hover {
+	opacity: 1;
+}
+
+.nav-link {
+	font-size: 13px;
+	margin: 0px 10px 0px 10px;
+}
+
+.active {
+	/*background-color: #2256aa;*/
+}
+
+.scrape-new {
+	background-color: red;
+	color: white !important;
+	border: none;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url("../images/jumbotron.jpeg");
+}
+
+.display-3 {
+	color: white;
+	font-family: "Times New Roman";
+}
+
+.lead {
+	color: white;
+	font-family: "Times New Roman";
+}
+
+.panel {
+	margin: 20px;
+	box-shadow: 1px 4px 4px 1px;
+}
+
+.panel-heading {
+	background-color: #166efc;
+}
+
+.article-link {
+	color: white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.save {
+	text-align: right;
+	text-transform: uppercase;
+	color: white !important;
+	/*box-shadow: 1px 4px 4px 1px;*/
+	border: none;
+}
+
+.remove {
+	text-align: right;
+	text-transform: uppercase;
+	background-color: red;
+	color: white !important;
+	/*box-shadow: 1px 4px 4px 1px;*/
+	border: none;
+}
+
+.notes {
+	text-align: right;
+	text-transform: uppercase;
+	background-color: purple;
+	color: white !important;
+	/*box-shadow: 1px 4px 4px 1px;*/
+	border: none;
+}
+
+.panel-content {
+	padding: 10px;
+}
