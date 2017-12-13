@@ -1,82 +1,41 @@
-.navbar-brand {
-	opacity: 0.5;
+html {
+	font-size: 18px;
 }
 
-.navbar-brand:hover {
-	opacity: 1;
+#bodyinput {
+    width: 50%;
+}
+
+.navbar {
+    background-color: #700741;
+    margin: 0 auto;
+    padding: none;
 }
 
 .nav-link {
-	font-size: 13px;
-	margin: 0px 10px 0px 10px;
-}
-
-.active {
-	/*background-color: #2256aa;*/
-}
-
-.scrape-new {
-	background-color: red;
-	color: white !important;
-	border: none;
+    color: white;
 }
 
 .jumbotron {
-	height: 500px;
-	background-image: url("../images/jumbotron.jpeg");
+    background-image: url('../images/jumbotron.jpeg');
+    height: 600px;
+    margin: 0 auto;
 }
 
 .display-3 {
-	color: white;
-	font-family: "Times New Roman";
+    color: white !important;
 }
 
 .lead {
-	color: white;
-	font-family: "Times New Roman";
+    color: white;
 }
 
-.panel {
-	margin: 20px;
-	box-shadow: 1px 4px 4px 1px;
+.panel-heading.row {
+	background-color: #700741; 
 }
 
-.panel-heading {
-	background-color: #166efc;
-}
-
-.article-link {
-	color: white;
-	margin: 10px;
-	padding: 10px;
-}
-
-.save {
-	text-align: right;
-	text-transform: uppercase;
-	color: white !important;
-	/*box-shadow: 1px 4px 4px 1px;*/
-	border: none;
-}
-
-.remove {
-	text-align: right;
-	text-transform: uppercase;
-	background-color: red;
-	color: white !important;
-	/*box-shadow: 1px 4px 4px 1px;*/
-	border: none;
-}
-
-.notes {
-	text-align: right;
-	text-transform: uppercase;
-	background-color: purple;
-	color: white !important;
-	/*box-shadow: 1px 4px 4px 1px;*/
-	border: none;
-}
-
-.panel-content {
-	padding: 10px;
+.panel-primary {
+    /*height: 135px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
